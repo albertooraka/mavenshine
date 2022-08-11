@@ -6,6 +6,13 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>mylinux-snapshots</name>
+        <url>http://51.120.11.131:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
